@@ -1,0 +1,20 @@
+DATA       TIME      [ THREAD NAME/ID ] TYPE     DESCRIPTION
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     [... RRC request message ...]
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     Encode UE succeeded with Message size(Byte): 13
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     Message sending ...
+23-03-2022 17:34:00  [ Thread Network ] INFO     Message has been received!
+23-03-2022 17:34:00  [ Thread Network ] INFO     Decode Network succeeded with Message size(Byte): 13
+23-03-2022 17:34:00  [ Thread Network ] INFO     Message: {ID: 1, Name: Ue, Payload: Request}
+23-03-2022 17:34:00  [ Thread Network ] INFO     [... RRC setup message ...]
+23-03-2022 17:34:00  [ Thread Network ] INFO     Encode Network succeeded with Message size(Byte): 16
+23-03-2022 17:34:00  [ Thread Network ] INFO     Message sending ...
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     Message has been received!
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     Decode UE succeeded with Message size(Byte): 16
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     Message: {ID: 2, Name: Network, Payload: Setup}
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     [... RRC complete message ...]
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     Encode UE succeeded with Message size(Byte): 14
+23-03-2022 17:34:00  [ Thread Ue      ] INFO     Message sending ...
+23-03-2022 17:34:00  [ Thread Network ] INFO     Message has been received!
+23-03-2022 17:34:00  [ Thread Network ] INFO     Decode Network succeeded with Message size(Byte): 14
+23-03-2022 17:34:00  [ Thread Network ] INFO     Message: {ID: 3, Name: Ue, Payload: Complete}
+23-03-2022 17:34:00  [ Thread Network ] INFO     ------COMPLETE!!!------

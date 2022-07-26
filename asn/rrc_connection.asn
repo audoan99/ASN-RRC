@@ -1,0 +1,10 @@
+--Command line: asn1c rrc_connection.asn -gen-PER (support linux)
+RRC DEFINITIONS AUTOMATIC TAGS ::= 
+BEGIN
+    RRCConnection ::= SEQUENCE       
+    {
+        id     INTEGER, --Kieu so nguyen
+        name      UTF8String (SIZE(1..10)), --kieu chuoi co do dai tu 1 tới 10 ky tu (Toi da 10 Byte) 
+        payload   UTF8String (SIZE(1..20)) --Cac phan tu cung 1 kieu UTF8String va co thu tu lan luot (Toi da 20 Byte)
+    }                                                     
+END
