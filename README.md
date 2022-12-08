@@ -3,4 +3,4 @@ ASN RRC message transmission is the transmission of messages between UE-RAN usin
 
 
 
-![alt text](https://www.prodevelopertutorial.com/wp-content/uploads/2022/02/153-RRC-connection-establishment-procedure.png)
+![alt text](https://github.com/audoan99/Cash-register/blob/main/sample/sample-video.gif)
